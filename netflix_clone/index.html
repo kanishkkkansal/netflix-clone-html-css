@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="SHORTCUT ICON" href="images/logo1.png" type="image/x-icon">
+    
+    <link href="C:\Users\kansa\Downloads\HTML CSS NETFLIX SCHOOL\netflix_clone\style.css" rel="stylesheet" />
+    <style>
+        *{
+            margin: 0;
+             box-sizing:border-box ;
+             font-family: sans-serif;
+        }
+        
+        li{
+            color: rgb(231, 227, 227);
+        }
+        #logo{
+            height: 110px;
+            width: 150px;
+            top:0;
+        }
+        #nav_container{
+            display: inline-block;
+            position: absolute;
+            top: 45px;
+            margin-left: 15px;
+        }
+       
+        li.nav_bar{
+            display: inline;
+            margin-right: 15px;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        #main{
+            height:100vh;
+            width:100vw;
+            background-color:red;
+            /*background-image:url("https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg");
+            background-size: contain;
+            */
+            /*position:fixed;
+            
+            top:0px;
+            left:0px;
+            right:0px;
+            bottom:0px;
+            */
+            position:relative;
+        }
+        
+        #Header{
+            position: absolute;
+            /*background-color:black;*/
+            top: 0%;
+            left: 0%;
+            z-index: 1;
+            width: 100%;
+            height: 16%;
+        }      
+        #banner_image{
+            width: 100vw;
+            height: 100vh;
+            position:absolute;
+            top:0%; 
+        }
+        
+        #banner_logo{
+            position:absolute;
+            z-index: 200;
+            width: 265px;
+            height: 110px;
+            top:200px;
+            margin-left: 90px;
+            
+            }
+        #net_series_logo{
+            position:absolute;
+            z-index: 1;
+            width: 390px;
+            height: 220px;
+            margin-left: 19px;
+            top: 65px;
+            
+
+        }
+        #banner_content{
+            position:absolute;
+            z-index: 2;
+            top:320px;
+            color: rgb(208, 194, 194);
+            margin-left: 90px;
+            width: 21%;
+    
+            
+            
+        }
+        #banner_heading,#banner_para{
+         margin-bottom: 15px;
+        }
+        .nav_bar:hover{
+            cursor: pointer;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="Header">
+       <img id="logo" src="assets\netflix-logo-black-background-free-vector-removebg-preview.png"/>
+      <div id="nav_container">
+        <ul id="list">
+          <li class="nav_bar">Home</li>
+          <li class="nav_bar">TV Shows</li>
+          <li class="nav_bar">Movies</li>
+          <li class="nav_bar">New and Popular</li>
+          <li class="nav_bar">My list</li>
+          <li class="nav_bar">Browse by languages</li>
+       </ul>
+      </div>
+      <div id="header_actions" style="display: inline-block;">
+        <img src="assets\search.svg" />
+        <img src="assets\bell.svg"/>
+        <img style="width: 25px;;" src="assets/323ecca68b7105d23184e783b86b0c5a.jpg" />
+        <img src="assets\chevron-down.svg"/>
+        <img src=""/>
+      </div>
+    </div>
+    <div id="main">
+        
+        <img id="banner_image" src="assets\730031.jpg" />
+        <img id="net_series_logo" src="assets\net logo.png" />
+        
+        <img id="banner_logo"  src="assets\stranger-things-logo-removebg-preview.png" />
+        <div id="banner_content">
+        <h3 id="banner_heading">Watch all Seasons now.</h3>
+        <p id="banner_para">When a young boy vanishes,a small town uncovers
+             a mystery involving secret experiments,terrifying supernatural forces and
+            a strange little girl. 
+
+        </p>
+        <div id="action_buttons_container" style="margin-top: 20px;z-index: 1;">
+            <button style="background-color: rgb(195, 189, 189);height: 30px;width: 70px;border-radius:5.90px;margin-right:7px;border: none;">Play</button>
+            <button style="background-color:rgba(109,109,111,0.3) ;height: 31px;width: 100px;color: rgb(203, 209, 209);border-radius: 5.90px;border:none">More info</button>
+        </div>
+        <div id="content_container">
+            <h3>You Might Like</h3>
+            <div id="content_row" >
+                
+                <img class="content"
+                 src="assets\Screenshot 2025-07-13 104605.png" />
+                
+                
+                <img class="content"
+                 src="assets\Screenshot 2025-07-13 104838.png" />
+                
+                
+                <img class="content"
+                 src="assets\Screenshot 2025-07-13 104948.png" />
+                
+                
+                <img class="content"
+                 src="assets\Screenshot 2025-07-13 105932.png" />
+                
+                
+                <img class="content"
+                 src="assets\Screenshot 2025-07-13 110430.png" />
+                 
+                
+                <img class="content"
+                 src="assets\Screenshot 2025-07-13 110337.png" />
+                
+                 
+                <img class="content"
+                 src="assets\Screenshot 2025-07-18 020149.png" />
+                
+                 
+                <img  class="content"
+                 src="assets\Screenshot 2025-07-13 111022.png" />
+                 
+
+            </div>
+        </div>
+        
+        </div>
+        
+       
+
+        
+        
+    </div>
+    </body>
+    
+</html>

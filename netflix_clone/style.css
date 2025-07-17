@@ -1,0 +1,46 @@
+#content_container{
+
+    
+    color: white;
+    margin-top: 32px;
+    width:90vw;
+    
+
+}
+#content_row{
+    overflow-x: scroll;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+.content{
+    display: inline;
+    margin-right: 10px;
+    height: 150px;
+    width:260px;
+    
+}
+#header_actions{
+    position: absolute;
+    z-index: 1;
+    top:37%;
+    margin-left: 78%;
+    display: inline-block;
+    
+
+}
+#header_actions img{
+    margin-right: 7px;
+}
+#header_actions img:hover{
+    cursor: pointer;
+}
+#content_row img:hover{
+     width:270px;
+     height:160px;
+     cursor: pointer;
+    
+}
+    
