@@ -34,5 +34,5 @@ _Add a screenshot here of your webpage if you want!_
 - Styling and positioning elements
 
 ## 🧾 License
-This project is for personal and educational use only.
+This project is for personal and educational use only.Please give credit if you use or reference it.
 
