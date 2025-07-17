@@ -25,8 +25,6 @@ This is a static front-end clone of Netflix's homepage created using only **HTML
 1. Clone or download the repository
 2. Open `index.html` in your browser
 
-## 📸 Screenshot
-_Add a screenshot here of your webpage if you want!_
 
 ## 🧠 What I Learned
 - Working with Flexbox
